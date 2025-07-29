@@ -1,0 +1,1 @@
+# Guia-Interativo-de-Segmenta-o-no-Meta-Ads
