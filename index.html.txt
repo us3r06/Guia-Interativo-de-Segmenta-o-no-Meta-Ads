@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segmentação no Meta Ads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo para o marcador do summary (a seta) */
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        /* Rotação da seta do accordion */
+        details[open] summary .chevron {
+            transform: rotate(90deg);
+        }
+        .chevron {
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200 antialiased">
+
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
+
+        <!-- Cabeçalho -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-2">Guia de Segmentação no Meta Ads</h1>
+            <p class="text-lg text-slate-400">Princípios essenciais para campanhas de alta performance.</p>
+        </header>
+
+        <!-- Seção: Fundamentos -->
+        <section class="mb-8">
+            <h2 class="flex items-center text-2xl font-bold text-cyan-400 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                Fundamentos da Estratégia
+            </h2>
+            <div class="space-y-3">
+                <!-- Princípio 1 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">1. As 4 Dimensões da Segmentação</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">A segmentação ocorre em quatro níveis: <b class="text-white">Público</b> (interesses, lookalike), <b class="text-white">Criativo</b> (a mensagem do anúncio), <b class="text-white">Objetivo</b> (vendas, cadastros) e <b class="text-white">Pixel</b> (remarketing de ações no site).</p>
+                    </div>
+                </details>
+
+                <!-- Princípio 2 e 3 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">2. A Balança: Tamanho, Qualidade e Escala</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700 space-y-2">
+                        <p class="text-slate-300"><b class="text-white">Qualidade:</b> Quanto maior o público, menor tende a ser sua qualificação para a compra.</p>
+                        <p class="text-slate-300"><b class="text-white">Escala:</b> Quanto maior o público, maior seu potencial de escala (gastar mais dinheiro com resultado).</p>
+                    </div>
+                </details>
+
+                <!-- Princípio 4 e 5 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">3. Obviedade e Ordem dos Interesses</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Comece sempre pelo mais óbvio. Vende artigos de pesca? Use o interesse "Pesca". Valide o centro do alvo antes de testar interesses laterais ou mais criativos.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Seção: Estrutura -->
+        <section class="mb-8">
+            <h2 class="flex items-center text-2xl font-bold text-indigo-400 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg>
+                Estruturando Suas Campanhas
+            </h2>
+             <div class="space-y-3">
+                <!-- Princípio 6 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">4. Isolamento por Temperatura</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Separe campanhas ou conjuntos por temperatura para alinhar a mensagem: <b class="text-white">❄️ Frio</b> (não te conhece), <b class="text-white">☀️ Morno</b> (já interagiu), <b class="text-white">🔥 Quente</b> (quase comprou).</p>
+                    </div>
+                </details>
+
+                 <!-- Princípio 7 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">5. Número Ideal de Conjuntos</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Campanhas (especialmente em CBO) performam melhor com <b class="text-white">4 a 8 conjuntos</b>. Menos que isso limita os testes; mais que isso dilui o orçamento e dificulta a otimização.</p>
+                    </div>
+                </details>
+                
+                <!-- Princípio 9 & 10 -->
+                 <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">6. Fusão vs. Separação de Públicos</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700 space-y-2">
+                        <p class="text-slate-300"><b class="text-white">Fusão:</b> Agrupe públicos pequenos e similares (ex: Marketing Digital + Marketing Online) para consolidar dados.</p>
+                        <p class="text-slate-300"><b class="text-white">Separação:</b> Isole públicos grandes e distintos (ex: Lookalike vs. Interesses) para analisar a performance individualmente.</p>
+                    </div>
+                </details>
+
+                 <!-- Princípio 13 -->
+                 <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">7. A Exclusão Inteligente</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Sempre exclua públicos para evitar sobreposição e desperdício. Exemplo: no conjunto de "visitantes 30D", <b class="text-white">exclua</b> o público de "visitantes 7D" e o de "compradores".</p>
+                    </div>
+                </details>
+
+                <!-- Princípio 8 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">8. Segmentação em Locais Pequenos</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Ao anunciar para um bairro ou cidade pequena, a melhor segmentação pode ser <b class="text-white">apenas a localização</b>. O direcionamento geográfico já é restrito o suficiente. Deixe o algoritmo trabalhar.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Seção: Táticas -->
+        <section class="mb-8">
+            <h2 class="flex items-center text-2xl font-bold text-amber-400 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
+                Otimização e Táticas de Público
+            </h2>
+            <div class="space-y-3">
+                 <!-- Princípio 4 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">9. Remarketing: O Passo Anterior</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Dê atenção máxima a quem chegou mais perto de comprar. Públicos de <b class="text-white">"Adicionou ao carrinho"</b> e <b class="text-white">"Iniciou checkout"</b> são minas de ouro e merecem campanhas específicas.</p>
+                    </div>
+                </details>
+
+                 <!-- Princípio 17 -->
+                 <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">10. Anúncios Específicos para Públicos Quentes</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Para o público quente, seus anúncios devem <b class="text-white">quebrar objeções</b>. Use depoimentos, reforce a garantia, ofereça um cupom, mostre o frete grátis. Responda à pergunta: "Por que ele ainda não comprou?".</p>
+                    </div>
+                </details>
+
+                <!-- Princípio 12 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">11. O Poder dos Públicos Semelhantes (LLA)</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Use a função "Lookalike" a partir das suas melhores fontes de dados. Um LLA da sua <b class="text-white">lista de melhores clientes</b> é muito mais poderoso do que um LLA de "seguidores do Instagram".</p>
+                    </div>
+                </details>
+
+                 <!-- Princípio 14 & 15 -->
+                 <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">12. Fatiamento e Escolha do Algoritmo</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700 space-y-2">
+                        <p class="text-slate-300"><b class="text-white">Fatiar:</b> Teste LLA em "fatias" (ex: 0-1% vs 1-3%) para ver qual é mais lucrativa.</p>
+                        <p class="text-slate-300"><b class="text-white">Escolha:</b> Se o Meta não gasta em um conjunto, não force. É um sinal de que ele não está performando. Desligue-o e teste outro.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+         <!-- Seção: Mentalidade -->
+        <section class="mb-8">
+            <h2 class="flex items-center text-2xl font-bold text-rose-400 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                Mentalidade de Crescimento
+            </h2>
+            <div class="space-y-3">
+                <!-- Princípio 19 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">13. Leads: Quantidade vs. Qualidade</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">Não se iluda com o Custo por Lead (CPL) baixo. O que importa é o <b class="text-white">Custo por Venda</b>. É melhor pagar mais caro por um lead que compra do que muito barato por um que nunca vai converter.</p>
+                    </div>
+                </details>
+
+                <!-- Princípio 20 -->
+                <details class="bg-slate-800/50 rounded-lg overflow-hidden">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-slate-700/50">
+                        <span class="font-semibold text-lg text-white">14. A Única Constante é a Mudança</span>
+                        <svg class="chevron h-5 w-5 text-slate-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="p-5 border-t border-slate-700">
+                        <p class="text-slate-300">O que funciona hoje pode não funcionar amanhã. Públicos saturam, criativos cansam. <b class="text-white">Esteja sempre testando</b> novas abordagens, públicos e anúncios. A acomodação é o maior risco.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
